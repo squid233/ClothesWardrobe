@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "clotheswardrobe",
+  "version": "${version}",
+
+  "name": "Clothes Wardrobe",
+  "description": "This is a Minecraft mod. It add many clothes. It has a skin template, too.",
+  "authors": [
+    "squid233"
+  ],
+  "contact": {
+    "homepage": "https://github.com/squid233/ClothesWardrobe",
+    "sources": "https://github.com/squid233/ClothesWardrobe"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/clotheswardrobe/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.clotheswardrobe.ClothesWardrobe"
+    ]
+  },
+  "mixins": [
+    "clotheswardrobe.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
